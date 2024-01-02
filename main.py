@@ -1,6 +1,5 @@
 import tkinter as tk
 
-
 cals_keys = [
     {
         'text': '7',
@@ -67,7 +66,6 @@ cals_keys = [
         'command': lambda: insert_number_in_calc_result('='),
     },
 ]
-
 
 windows = tk.Tk()
 windows.title('My Calculator')
